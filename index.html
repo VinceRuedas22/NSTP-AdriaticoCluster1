@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 668: Clean, Green, and Looking Great</title>
+    <style>
+        body {
+            font-family: "Trebuchet MS", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+            background-image: url('./Pictures/Ermita.jpg');
+            background-size: cover;
+            background-position: center;
+            text-shadow:
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000,
+                -1.5px 0px 0 #000,
+                1.5px 0px 0 #000,
+                0px -1.5px 0 #000,
+                0px  1.5px 0 #000;
+
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #309335;
+            padding: 0.75rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            margin: 0.5rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #66bb6a;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            border: 2px solid white;
+        }
+        #details {
+            background-image: url('./Pictures/waste.jpg');
+        }
+        #progress {
+            background-image: url('./Pictures/trees2.jpg');
+        }
+        #plan {
+            background-image: url('./Pictures/plan.png');
+        }
+        .section h2, .section p {
+            background: #2e7d32;
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .team-member {
+            background-color: #448f47;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 0.5rem;
+        }
+        .progress-button {
+            display: inline-block;
+            background-color: #2e7d32;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin-top: 1rem;
+        }
+        .progress-button:hover {
+            background-color: #1f4f21;
+            transform: scale(1.05);
+        }
+        p {
+            text-align: justify;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                display: block;
+                text-align: center;
+                width: 100%;
+                padding: 1rem;
+            }
+            .team {
+                flex-direction: column;
+                align-items: center;
+            }
+            .team-member {
+                width: 80%;
+            }
+            .section {
+                padding: 1.5rem;
+                min-height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project 668: Clean, Green, and Looking Great</h1>
+    </header>
+    <nav>
+        <a href="#details">Project Details</a>
+        <a href="#team">Team</a>
+        <a href="progress.html">Progress Reports</a>
+        <a href="plan.html">Proposed Plans</a>
+    </nav>
+    <div class="container">
+        <section id="details" class="section">
+            <h2>Project Abstract</h2>
+            <p>A “healthy” community is often described as a place with access to adequate water and food, with proper waste disposal, having clean air, and having no pests like cockroaches and rats. Going by this definition, it seems that the existence of a healthy community in any urban setting is far-fetched. Barangay 668 in Ermita, Manila, being near the Manila Baywalk Area, appears to be an exception as it has relatively clean streets and a regular clean-up schedule. However, even with continued effort to maintain a clean environment, one specific area of the barangay, Guerrero Street, was emphasized by the Barangay Captain as a place difficult to maintain. Additionally, garbage collection is not as facilitated in the area as compared with other places in the barangay possibly due to being occupied primarily by informal settlers. Without any immediate action, the area may become even more unsuitable for living as improperly managed garbage can be a nesting ground for potent vectors of disease and cause floods during rainy seasons. To address this problem, a community-focused waste management plan named “Project 668: Clean, Green, and Looking Great” was devised under the supervision of the NSTP-CWTS course. The plan entails two methods of reducing waste and keeping Guerrero Street clean like Sweep & Sip Days, which aims to maintain community engagement throughout the waste management process by providing incentives like hot drinks and snacks. The other is Inob-aksyon, which serves to proactively reduce waste by holding monthly competitions about deriving alternative uses for common waste materials or building waste management facilities such as garbage bins and storm drains using waste. Project 668: Clean, Green, and Looking Great focuses on maintaining interest in community cleanliness through various activities and highlights the importance of community in maintaining a healthy space for all.</p>
+        </section>
+        <section id="team" class="section">
+            <h2>Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="./Team/Almoite.png" alt="Patrick Almoite">
+                    <h3>Patrick Almoite</h3>
+                </div>
+                <div class="team-member">
+                    <img src="./Team/Diaz.PNG" alt="Bea Francine Diaz">
+                    <h3>Bea Francine Diaz</h3>
+                </div>
+                <div class="team-member">
+                    <img src="./Team/Penolvo.png" alt="Jade Anthony Kurt Peñolvo">
+                    <h3>Jade Anthony Kurt Peñolvo</h3>
+                </div>
+                <div class="team-member">
+                    <img src="./Team/Planca.png" alt="Khrishiel Joe Planca">
+                    <h3>Khrishiel Joe Planca</h3>
+                </div>
+                <div class="team-member">
+                    <img src="./Team/Rativo.jpg" alt="Mark Louis Rativo">
+                    <h3>Mark Louis Rativo</h3>
+                </div>
+                <div class="team-member">
+                    <img src="./Team/Ruedas.png" alt="Vince Joshen Ruedas">
+                    <h3>Vince Joshen Ruedas</h3>
+                </div>
+            </div>
+        </section>
+        <section id="progress" class="section">
+            <h2>Progress Reports</h2>
+            <p>Click below to view progress reports.</p>
+            <a href="progress.html" class="progress-button">View Reports</a>
+        </section>
+        <section id="plan" class="section">
+            <h2>Proposed Plans</h2>
+            <p>Click below to view the proposed plans.</p>
+            <a href="plan.html" class="progress-button">View Plans</a>
+        </section>
+    </div>
+</body>
+</html>
